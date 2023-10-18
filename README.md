@@ -20,28 +20,28 @@ In this repo we will keep the shell scripting fies.
 ----------------
 In Linux, color codes are used to add color and formatting to text output in the terminal. These codes are often referred to as ANSI escape codes. They use special escape sequences to change the appearance of text in the terminal. Here's a breakdown of the syntax for color codes in Linux:
 
-Escape Character: Color codes start with an escape character, which is represented as \033 in octal notation or \e in some contexts.
+**Escape Character:** Color codes start with an escape character, which is represented as \033 in octal notation or \e in some contexts.
 
-Opening Bracket: After the escape character, an opening square bracket [ is used to indicate that the escape sequence is starting.
+**Opening Bracket:** After the escape character, an opening square bracket [ is used to indicate that the escape sequence is starting.
 
-Formatting Code: The formatting code is an integer or a semicolon-separated list of integers that specifies the desired formatting and color changes. These codes are used to set text color, background color, and text formatting.
+**Formatting Code:** The formatting code is an integer or a semicolon-separated list of integers that specifies the desired formatting and color changes. These codes are used to set text color, background color, and text formatting.
 
-Closing "m" Character: After specifying the formatting code, the escape sequence ends with the letter "m." This character indicates the end of the formatting code.
+**Closing "m" Character:** After specifying the formatting code, the escape sequence ends with the letter "m." This character indicates the end of the formatting code.
 
-Text to Format: After the closing "m" character, you provide the text that you want to format with the specified settings.
+**Text to Format:** After the closing "m" character, you provide the text that you want to format with the specified settings.
 
-Reset Code: To reset the formatting and color to their default settings, you can use the reset code, which is \033[0m.
+**Reset Code:** To reset the formatting and color to their default settings, you can use the reset code, which is \033[0m.
 
-Basic Formatting Codes:
+**Basic Formatting Codes:**
 
-0: Reset all formatting and color.
-1: Bold or increased intensity.
-2: Faint (rarely supported).
-3: Italic (rarely supported).
-4: Underlined.
-5: Blinking text (not recommended).
-7: Inverted colors (swap foreground and background).
-8: Hidden text (hidden from display).
+* 0: Reset all formatting and color.
+* 1: Bold or increased intensity.
+* 2: Faint (rarely supported).
+* 3: Italic (rarely supported).
+* 4: Underlined.
+* 5: Blinking text (not recommended).
+* 7: Inverted colors (swap foreground and background).
+* 8: Hidden text (hidden from display).
 
 **Text Color Codes:**
 
