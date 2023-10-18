@@ -32,6 +32,15 @@ In Linux, color codes are used to add color and formatting to text output in the
 
 ****Reset Code:**** To reset the formatting and color to their default settings, you can use the reset code, which is \033[0m.
 
+****Usage Examples:****
+
+* **echo -e "\e[31mMessage{red}\e[0m"**
+* **echo -e "\e[32mMessage{Green}\e[0m"**
+* **echo -e "\e[33mMessage{Yellow}\e[0m"**
+* **echo -e "\e[34mMessage{Blue}\e[0m"**
+* **echo -e "\e[35mMessage{magenta}\e[0m"**
+* **echo -e "\e[36mMessage{Cyan}\e[0m"**
+
 ****Basic Formatting Codes:****
 
 * 0: Reset all formatting and color.
@@ -66,13 +75,6 @@ In Linux, color codes are used to add color and formatting to text output in the
 * 47: Light gray background
 
 ****Usage Examples:****
-
-* **echo -e "\e[31mMessage{red}\e[0m"**
-* **echo -e "\e[32mMessage{Green}\e[0m"**
-* **echo -e "\e[33mMessage{Yellow}\e[0m"**
-* **echo -e "\e[34mMessage{Blue}\e[0m"**
-* **echo -e "\e[35mMessage{magenta}\e[0m"**
-* **echo -e "\e[36mMessage{Cyan}\e[0m"**
 
 * To print red text: echo -e "\033[0;31mThis text is red.\033[0m"
 * To print bold and underlined blue text: echo -e "\033[1;4;34mBold, underlined blue text.\033[0m"
