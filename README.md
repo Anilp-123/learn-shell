@@ -42,30 +42,32 @@ Basic Formatting Codes:
 5: Blinking text (not recommended).
 7: Inverted colors (swap foreground and background).
 8: Hidden text (hidden from display).
-Text Color Codes:
 
-30: Black
-31: Red
-32: Green
-33: Yellow
-34: Blue
-35: Magenta (purple)
-36: Cyan
-37: Light gray
-Background Color Codes:
+**Text Color Codes:**
 
-40: Black background
-41: Red background
-42: Green background
-43: Yellow background
-44: Blue background
-45: Magenta background
-46: Cyan background
-47: Light gray background
-Usage Examples:
+* 30: Black
+* 31: Red
+* 32: Green
+* 33: Yellow
+* 34: Blue
+* 35: Magenta (purple)
+* 36: Cyan
+* 37: Light gray
+**Background Color Codes:**
 
-To print red text: echo -e "\033[0;31mThis text is red.\033[0m"
-To print bold and underlined blue text: echo -e "\033[1;4;34mBold, underlined blue text.\033[0m"
-To change the background color to green: echo -e "\033[0;42mText on a green background.\033[0m"
-These are just some basic examples. You can combine formatting and color codes to achieve various visual effects. However, be aware that not all terminals support all formatting options, so it's a good idea to test your codes in your specific terminal environment.
+* 40: Black background
+* 41: Red background
+* 42: Green background
+* 43: Yellow background
+* 44: Blue background
+* 45: Magenta background
+* 46: Cyan background
+* 47: Light gray background
+**Usage Examples:**
 
+* To print red text: echo -e "\033[0;31mThis text is red.\033[0m"
+* To print bold and underlined blue text: echo -e "\033[1;4;34mBold, underlined blue text.\033[0m"
+* To change the background color to green: echo -e "\033[0;42mText on a green background.\033[0m"
+* These are just some basic examples. You can combine formatting and color codes to achieve various visual effects. However, be aware that not all terminals support all formatting options, so it's a good idea to test your codes in your specific terminal environment.
+* 
+* 
