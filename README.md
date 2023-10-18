@@ -12,3 +12,5 @@ In this repo we will keep the shell scripting fies.
 6. Exit Status
 7. Inputs
 8. Quotes
+9. Redirectors
+10. SED Editors
