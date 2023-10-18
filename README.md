@@ -16,7 +16,7 @@ In this repo we will keep the shell scripting fies.
 10. SED Editors
 
 
-***Colour Codes***
+***Color Codes***
 ----------------
 In Linux, color codes are used to add color and formatting to text output in the terminal. These codes are often referred to as ANSI escape codes. They use special escape sequences to change the appearance of text in the terminal. Here's a breakdown of the syntax for color codes in Linux:
 
