@@ -53,7 +53,8 @@ Basic Formatting Codes:
 * 35: Magenta (purple)
 * 36: Cyan
 * 37: Light gray
-**Background Color Codes:**
+
+****Background Color Codes:****
 
 * 40: Black background
 * 41: Red background
@@ -63,11 +64,10 @@ Basic Formatting Codes:
 * 45: Magenta background
 * 46: Cyan background
 * 47: Light gray background
-**Usage Examples:**
+
+****Usage Examples:****
 
 * To print red text: echo -e "\033[0;31mThis text is red.\033[0m"
 * To print bold and underlined blue text: echo -e "\033[1;4;34mBold, underlined blue text.\033[0m"
 * To change the background color to green: echo -e "\033[0;42mText on a green background.\033[0m"
 * These are just some basic examples. You can combine formatting and color codes to achieve various visual effects. However, be aware that not all terminals support all formatting options, so it's a good idea to test your codes in your specific terminal environment.
-* 
-* 
